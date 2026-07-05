@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Registro UABJB{% endblock %}
+
+
+
+{% block content %}
+    <h1>Registro UABJB</h1>
+    <p>Formulario de registro en el sistema académico</p>
+    <a href="{% url 'appUsuarios:registro' %}">Registrarse</a>
+    <a href="{% url 'appMain:index' %}">Volver a la página principal</a>
+    <a href="{% url 'appUsuarios:login' %}">Iniciar sesión</a>
+
+{% endblock %}
